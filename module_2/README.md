@@ -106,3 +106,43 @@ Date:   Mon Apr 11 14:33:13 2022 -0400
 
     Co-authored-by: Laura Pacilio <83350965+laurapacilio@users.noreply.github.com>
 PS C:\Users\reinist\git_repos\terraform>
+
+
+PS C:\Users\reinist\git_repos\terraform> git log --since='2021-04-20' --until='2021-04-21'
+commit f8493bf5cd78bc2a723f5ddc6f6bceb0e08813ea
+Author: James Bardin <j.bardin@gmail.com>
+Date:   Fri Apr 16 17:11:27 2021 -0400
+
+    update hcl
+
+    update to v2.10.0
+
+commit d15f7394a19f8f4d604b632df54c1d0cc0c9cc85
+Merge: fabdf0bea 7f571b5eb
+Author: James Bardin <j.bardin@gmail.com>
+Date:   Tue Apr 20 16:25:34 2021 -0400
+
+    Merge pull request #28457 from hashicorp/jbardin/provisioner-null-checks
+
+    additional null checks in provisioners
+
+commit 7f571b5ebb76111a2c671ac0c2212379cc676bcd
+Author: James Bardin <j.bardin@gmail.com>
+Date:   Tue Apr 20 12:31:32 2021 -0400
+
+    additional null checks in provisioners
+
+    Now that provisioners for directly with the plugin API and cty data
+    types, we need to add a few null checks to catch invalid input that
+    would have otherwise been masked by the legacy SDK.
+
+commit fabdf0bea1fa2bf6a9d56cc3ea0f28242bf5e812
+Author: John Houston <jrhouston@users.noreply.github.com>
+Date:   Tue Apr 20 10:05:45 2021 -0400
+
+    Add config_paths and drop KUBECONFIG env variable in kubernetes backend (#26997)
+
+
+############################
+atbilde uz pedejo jautajumu
+Es domaju tas tapec ka bija lokals commit, bet nopushots tika velak.
