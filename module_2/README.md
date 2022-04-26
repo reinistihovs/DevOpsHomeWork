@@ -145,5 +145,5 @@ Date:   Tue Apr 20 10:05:45 2021 -0400
 
 ````
 
-############################
+
 Atbilde uz pedejo jautajumu: Es domaju tas tapec ka bija lokals commit, bet nopushots tika velak.
