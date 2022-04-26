@@ -151,7 +151,7 @@ Palasot informaciju seit:
 https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/managing-contribution-graphs-on-your-profile/troubleshooting-commits-on-your-timeline
 
 izspriedu ka author date atskiras no commit date
-
+````
 PS C:\Users\reinist\git_repos\terraform> git show f8493bf5cd78bc2a723f5ddc6f6bceb0e08813ea --pretty=fuller
 commit f8493bf5cd78bc2a723f5ddc6f6bceb0e08813ea
 Author:     James Bardin <j.bardin@gmail.com>
@@ -201,3 +201,4 @@ index f54a79334..6e92bf4cc 100644
  github.com/hashicorp/memberlist v0.1.0/go.mod h1:ncdBp14cuox2iFOq3kDiquKU6fqsTBc3W6JvZwjxxsE=
  github.com/hashicorp/serf v0.0.0-20160124182025-e4ec8cc423bb h1:ZbgmOQt8DOg796figP87/EFCVx2v2h9yRvwHF/zceX4=
 PS C:\Users\reinist\git_repos\terraform>
+````
