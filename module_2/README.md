@@ -1,4 +1,5 @@
 
+````
 PS C:\Users\reinist> cd .\git_repos\
 PS C:\Users\reinist\git_repos> git clone git@github.com:reinistihovs/DevOpsHomeWork.git
 Cloning into 'DevOpsHomeWork'...
@@ -142,7 +143,7 @@ Date:   Tue Apr 20 10:05:45 2021 -0400
 
     Add config_paths and drop KUBECONFIG env variable in kubernetes backend (#26997)
 
+````
 
-############################
-atbilde uz pedejo jautajumu
-Es domaju tas tapec ka bija lokals commit, bet nopushots tika velak.
+
+Atbilde uz pedejo jautajumu: Es domaju tas tapec ka bija lokals commit, bet nopushots tika velak.
