@@ -8,6 +8,6 @@ Linux bash skripts, kas pasaka hello world!
 ***
 * git clone https://github.com/reinistihovs/DevOpsHomeWork.git
 * bash HelloWorld.sh
-## Autors:
-Reinis
+## Autors: Reinis
+
 <img src="img/image.png"/>
