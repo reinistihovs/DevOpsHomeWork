@@ -58,6 +58,19 @@ Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
 To github.com:reinistihovs/DevOpsHomeWork.git
    c80f7cf..41919ec  main -> main
 
+PS C:\Users\reinist\git_repos\DevOpsHomeWork> cd ..
+PS C:\Users\reinist\git_repos> git clone git@github.com:hashicorp/terraform.git
+Cloning into 'terraform'...
+remote: Enumerating objects: 258425, done.
+remote: Counting objects: 100% (45/45), done.
+remote: Compressing objects: 100% (27/27), done.
+remote: Total 258425 (delta 24), reused 31 (delta 18), pack-reused 258380
+Receiving objects: 100% (258425/258425), 190.53 MiB | 3.95 MiB/s, done.
+
+Resolving deltas: 100% (160492/160492), done.
+Updating files: 100% (3057/3057), done.
+PS C:\Users\reinist\git_repos> cd .\terraform\
+
 
 PS C:\Users\reinist\git_repos\DevOpsHomeWork> git ls-tree -r HEAD --l
 100644 blob 155581934185fbccf36a2f0c5514b6f636ae48a4      39    HelloWorld.sh
@@ -65,3 +78,31 @@ PS C:\Users\reinist\git_repos\DevOpsHomeWork> git ls-tree -r HEAD --l
 100644 blob 2fbd83ae8cbc0ec30972419f27bf3f340c895a5e   29253    module_1/img/image.png
 100644 blob 2fbd83ae8cbc0ec30972419f27bf3f340c895a5e   29253    module_2/img/image.png
 PS C:\Users\reinist\git_repos\DevOpsHomeWork>
+
+PS C:\Users\reinist\git_repos\terraform> git log --since='2021-04-01' --until='2021-05-1' --grep="Laura Pacilio"
+PS C:\Users\reinist\git_repos\terraform> git log --since='2022-04-25' --until='2022-04-26' --grep="Laura Pacilio"
+PS C:\Users\reinist\git_repos\terraform> git log --since='2022-04-01' --until='2022-04-26' --grep="Laura Pacilio"
+commit 8138fb7b292ad3a48bf3001458e495af9cc98826
+Author: Brandon Croft <brandon.croft@gmail.com>
+Date:   Wed Apr 13 13:48:17 2022 -0600
+
+    Apply suggestions from documentation review
+
+    Co-authored-by: Laura Pacilio <83350965+laurapacilio@users.noreply.github.com>
+
+commit dff6a8431ce0d0e391dcb1352f16ba7964793cfb
+Author: Brandon Croft <brandon.croft@gmail.com>
+Date:   Tue Apr 5 13:23:46 2022 -0600
+
+    Apply doc suggestions from code review
+
+    Co-authored-by: Laura Pacilio <83350965+laurapacilio@users.noreply.github.com>
+
+commit f95c7935c9706ff4a7c1b21e460f6491c7e210b6 (origin/sebasslash/tf-workspace-cloud-config)
+Author: Sebastian Rivera <sebastian.rivera@hashicorp.com>
+Date:   Mon Apr 11 14:33:13 2022 -0400
+
+    Update website/docs/cli/cloud/settings.mdx
+
+    Co-authored-by: Laura Pacilio <83350965+laurapacilio@users.noreply.github.com>
+PS C:\Users\reinist\git_repos\terraform>
